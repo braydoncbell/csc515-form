@@ -21,22 +21,31 @@
         <div class="row">
             <div class="col">
                 <form>
+                    <!--First Name-->
                     <div class="form-group">
                       <label for="firstName">First Name:</label>
                       <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
                     </div>
+
+                    <!--Last Name-->
                     <div class="form-group">
                         <label for="lastName">Last Name:</label>
                         <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
                     </div>
+
+                    <!--User Name-->
                     <div class="form-group">
                         <label for="userName">Username:</label>
                         <input type="text" class="form-control" id="userName" placeholder="Enter your username">
                     </div>
+
+                    <!--Phone Number-->
                     <div class="form-group">
                         <label for="phoneNumber">Mobile:</label>
-                        <input type="text" class="form-control" id="phoneNumber" placehlder="only 10 digits are allowed">
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="only 10 digits are allowed">
                     </div>
+
+                    <!--Gender-->
                     <div class="form-group">
                         <p>Gender:</p>
                        <form>
@@ -45,9 +54,41 @@
                         <input type="radio" id="female" name="genderId" value="Female">
                         <label for ="female">Female</label><br>
                        </form>
-
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                    <!--City-->
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" class="form-control" id="city">
+                    </div>
+
+                    <!--State-->
+                    <div class="form-group">
+                        <label for="state">State:</label>
+                        <input type="text" class="form-control" id="state">
+                    </div>
+
+                    <!--Qualification-->
+                    <div class="form-group">
+                        <label for="qualification">Qualification:</label>
+                        <select name="qualification" id="qualification">
+                            <option value="" disabled selected>Select Qualification</option>
+                            <option value="graduation">Graduation</option>
+                            <option value="bTech">BTech</option>
+                            <option value="mTech">MTech</option>
+                            <option value="mca">MCA</option>
+                            <option value="bca">BCA</option>
+                        </select>
+                    </div>
+
+                    <!--Password-->
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="text" class="form-control" id="password">
+                    </div>
+
+                    <!--Submission-->
+                    <button type="submit" class="btn btn-primary">Registered</button>
                 </form>
             </div>
         </div>
